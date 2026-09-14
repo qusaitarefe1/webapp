@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ============================================================= -->
+  <!-- CONFLICT LINE: two branches will edit THIS meta tag's content. -->
+  <!-- Keep it on ONE line so the merge conflict is clean and easy.   -->
+  <meta name="theme-color" content="#2b6cb0" />
+  <!-- ============================================================= -->
+
+  <title>DevOps Academy</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>DevOps Academy</h1>
+    <p class="tagline">Learn the tools. Ship with confidence.</p>
+    <button id="theme-toggle" type="button">🌙 Toggle dark mode</button>
+  </header>
+
+  <nav class="site-nav">
+    <a href="index.html">Home</a>
+    <a href="docs/getting-started.html">Docs</a>
+    <a href="#courses">Courses</a>
+  </nav>
+
+  <main>
+    <section id="courses">
+      <h2>Our Courses</h2>
+      <ul id="course-list">
+        <li>Linux Administration</li>
+        <li>Bash Scripting</li>
+        <li>Git &amp; GitHub</li>
+        <!-- FEATURE SLOT: students will add a new course <li> on a branch. -->
+      </ul>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>DevOps Academy is a hands-on program for engineers who already
+         live in the terminal and want to master modern delivery workflows.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 DevOps Academy</p>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
