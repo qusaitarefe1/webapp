@@ -8,6 +8,8 @@
   --card: #f7fafc;
 }
 
+
+
 /* Dark mode is toggled by script.js adding class="dark" to <body>. */
 body.dark {
   --bg: #1a202c;
@@ -25,6 +27,7 @@ body {
   background: var(--bg);
   color: var(--fg);
   line-height: 1.6;
+  font-family: Arial, sans-serif;
   transition: background 0.2s ease, color 0.2s ease;
 }
 
