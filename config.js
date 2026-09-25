@@ -8,7 +8,7 @@ const SITE_CONFIG = {
   // CONFLICT LINE: two branches will set this to different values
   // (e.g. "blue" vs "green"). Keep it on ONE line — that guarantees
   // a clean, single-line merge conflict for the lesson.
-  themeColor: "red",
+themeColor: "green",
   // ---------------------------------------------------------------
 
   // BUG (intentional): the course count below is WRONG on purpose.
