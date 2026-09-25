@@ -7,3 +7,5 @@ Git staging and commit practice.
 Built for practical Git and GitHub learning.
 
 This project includes hands-on DevOps training.
+
+Published to GitHub for Git practice.
