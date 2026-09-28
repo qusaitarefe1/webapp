@@ -9,3 +9,5 @@ Built for practical Git and GitHub learning.
 This project includes hands-on DevOps training.
 
 Published to GitHub for Git practice.
+
+This change will be submitted through a Pull Request.
