@@ -11,3 +11,5 @@ This project includes hands-on DevOps training.
 Published to GitHub for Git practice.
 
 This change will be submitted through a Pull Request.
+
+This line was added directly from GitHub.
